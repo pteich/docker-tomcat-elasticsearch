@@ -1,0 +1,11 @@
+path.conf: /config
+path.data: /data/elasticsearch/data
+path.logs: /data/elasticsearch/log
+path.plugins: /data/elasticsearch/plugins
+path.work: /data/elasticsearch/work
+
+http.jsonp.enable: false
+discovery.zen.ping.multicast.enabled: false
+http.cors.enabled: false
+
+index.number_of_replicas: 0
